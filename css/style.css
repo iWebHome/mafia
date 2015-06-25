@@ -1,0 +1,113 @@
+html, body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #faf0f1;
+}
+
+* {
+    text-align: center;
+}
+
+.copyright {
+    color: lightgrey;
+    font: 12pt Arial;
+}
+
+.gameWindow {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.gameWndTitle {
+}
+.gameStatusWindowStatusBar{
+    font-size: 24pt;
+    border: 4pt solid gold;
+    border-radius: 10pt;
+}
+.gameBody {
+}
+
+.gameMasker {
+/*    z-index: 1;*/
+    opacity: 0.8;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+.gameItemInput{
+    table-layout: fixed;
+}
+.gameItemInputLabel{
+    display: inline-block;
+    text-align: right;
+    font-size: 20pt;
+    width: 80pt;
+}
+
+.gameItemInputInput{
+    height: 22pt;
+    font-size: 20pt;
+    width: 100%;
+}
+.gameItemButton {
+    margin: 1px;
+    -moz-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52));
+    background: -moz-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background: -webkit-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background: -o-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background: -ms-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+    background: linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52', GradientType=0);
+    background-color: #b8e356;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #86ae47;
+}
+
+.gameItemButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.gameDisabledButton {
+    -moz-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    -webkit-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    background-color:#dbe6c4;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #b2b8ad;
+    display:inline-block;
+    cursor:pointer;
+    color:#757d6f;
+    font-family: Arial, monospace;
+    font-size:15pt;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ced9bf;
+}
+.gameDisabledButton:active {
+    position:relative;
+    top:1px;
+}
